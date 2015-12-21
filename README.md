@@ -2,13 +2,13 @@
 
 **req** is a Go client library for accessing the [Registre des entreprises du Québec](http://www.registreentreprises.gouv.qc.ca/en/default.aspx).
 
-**Documentation:** [![GoDoc](https://godoc.org/github.com/jpmonette/req?status.svg)](https://godoc.org/github.com/jpmonette/req)  
-**Build Status:** [![TravisCI Build Status](https://travis-ci.org/jpmonette/req.svg)](https://travis-ci.org/jpmonette/req)
+**Documentation:** [![GoDoc](https://godoc.org/github.com/quebec/req?status.svg)](https://godoc.org/github.com/quebec/req)  
+**Build Status:** [![TravisCI Build Status](https://travis-ci.org/quebec/req.svg)](https://travis-ci.org/quebec/req)
 
 ## Usage
 
 ```go
-import "github.com/jpmonette/req"
+import "github.com/quebec/req"
 ```
 
 Construct a new **req** client, then use the various functions on the client to access different parts of the registry.
