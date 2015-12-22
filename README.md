@@ -11,7 +11,14 @@
 import "github.com/quebec/req"
 ```
 
-Construct a new **req** client, then use the various functions on the client to access different parts of the registry.
+Construct a new **req** client, then use the various functions on the client to access different parts of the registry. For example, if you want to get company information using a unique *NEQ* identifier:
+
+```go
+c := req.NewClient(nil)
+company, _ := c.GetNEQ("1143920115")
+fmt.Println(company.SectionInformationsGenerales.SousSecIdentification.NomEntreprise)
+// Output: BOMBARDIER INC.
+```
 
 ## Roadmap
 
