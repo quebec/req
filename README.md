@@ -19,6 +19,17 @@ fmt.Println(company.SectionInformationsGenerales.SousSecIdentification.NomEntrep
 // Output: BOMBARDIER INC.
 ```
 
+To search the registry:
+
+```go
+c := req.NewClient(nil)
+result, _ := c.Search("mrc", nil)
+
+for _, company := range result.ListeEntreprises {
+  fmt.Println(" (" + company.NumeroDossier + ") " + company.Nom)
+}
+```
+
 ## Roadmap
 
 This library is being initially developed for one of my internal project,
