@@ -28,6 +28,12 @@ result, _ := c.Search("mrc", nil)
 for _, company := range result.ListeEntreprises {
   fmt.Println(" (" + company.NumeroDossier + ") " + company.Nom)
 }
+// Output:
+// (1165737934) M.R.C.
+// (2260227451) M.R.C.
+// (1161426722) MRC CARE
+// (1142443804) MRC GROUP
+// ...
 ```
 
 ## Roadmap
