@@ -1,11 +1,8 @@
 # req
 
-**req** is a Go client library for accessing the [Registre des entreprises du Québec](http://www.registreentreprises.gouv.qc.ca/en/default.aspx).
+> **req** is a Go client library for accessing the [Registre des entreprises du Québec](http://www.registreentreprises.gouv.qc.ca/en/default.aspx).
 
-**Documentation:** [![GoDoc](https://godoc.org/github.com/quebec/req?status.svg)](https://godoc.org/github.com/quebec/req)  
-**Build Status:** [![TravisCI Build Status](https://travis-ci.org/quebec/req.svg)](https://travis-ci.org/quebec/req)
-
-**Code Coverage:** [![Coverage Status](https://coveralls.io/repos/quebec/req/badge.svg?branch=master&service=github)](https://coveralls.io/github/quebec/req?branch=master)
+[![TravisCI Build Status](https://travis-ci.org/quebec/req.svg)](https://travis-ci.org/quebec/req) [![Coverage Status](https://coveralls.io/repos/quebec/req/badge.svg?branch=master&service=github)](https://coveralls.io/github/quebec/req?branch=master) [![GoDoc](https://godoc.org/github.com/quebec/req?status.svg)](https://godoc.org/github.com/quebec/req) 
 
 ## Usage
 
